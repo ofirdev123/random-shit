@@ -31,7 +31,7 @@ import uuid
 
 
 # The URL of the Discord webhook.
-WEBHOOK_URL = "https://discord.com/api/webhooks/1348779023953690747/HeU4z4bdEogmMuyi57ZPrQr1BvdS13jZ67BKwhdYFl_94Jg0j2IEu9eJfbnOjrBN4ndS"
+WEBHOOK_URL = "https://discord.com/api/webhooks/1353341358915457065/pA-eZc1PFo2v9poaOv0tEUR-Uw0qiV4v0g7rStwrOQRT1bhhcTFEPl1HQU8D30_3Sv6o"
 
 # Sets the delay between each report (in seconds)
 TIME_INTERVAL = 10
